@@ -7,6 +7,7 @@ using static UnityEngine.InputSystem.InputAction;
 public class character : MonoBehaviour
 {
     PlayerControls input;
+    [SerializeField] float speed;
 
     #region movement
 
@@ -38,7 +39,7 @@ public class character : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.velocity = movementVector;
+        rb.velocity = movementVector * speed;
     }
 
     void ReadMovementInput(CallbackContext obj)

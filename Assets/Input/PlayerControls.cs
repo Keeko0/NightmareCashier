@@ -32,7 +32,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""type"": ""PassThrough"",
                     ""id"": ""f4e839d4-068a-4d2e-a884-165e3303a283"",
                     ""expectedControlType"": ""Vector2"",
-                    ""processors"": ""InvertVector2(invertY=false)"",
+                    ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
                 }
